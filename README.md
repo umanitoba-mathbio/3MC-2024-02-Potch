@@ -1,4 +1,4 @@
-# [3MC African Mathematical School on Quantitative Biology: Applications in Epidemiology, Ecology and Cancer](https://natural-sciences.nwu.ac.za/paa/3MC-School-2024)
+# [3MC African Math School on Quantitative Biology (Potch)](https://natural-sciences.nwu.ac.za/paa/3MC-School-2024)
 
 Material for the school held at Northwest University (Potchefstroom) in February 2024.
 
