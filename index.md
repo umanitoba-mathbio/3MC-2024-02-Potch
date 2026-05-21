@@ -2,7 +2,7 @@
  
 Here are some slides and material for the [3MC African Math School on Quantitative Biology (Potch)](https://natural-sciences.nwu.ac.za/paa/3MC-School-2024), held at Northwest University (Potchefstroom) in February 2024.
 
-On the [GitHub version](https://github.com/julien-arino/3MC-2024-02-Potch/) of the page, you have access to all the files. You can also download the entire repository by clicking the buttons on the left. (You can also of course clone this repo, but you will need to do that from the GitHub version of the site.)
+On the [GitHub version](https://github.com/umanitoba-mathbio/3MC-2024-02-Potch/) of the page, you have access to all the files. You can also download the entire repository by clicking the buttons on the left. (You can also of course clone this repo, but you will need to do that from the GitHub version of the site.)
 
 Feel free to use the material in these slides or in the folders. If you find this useful, we will be happy to know.
 
@@ -16,7 +16,7 @@ Html produced from Rmarkdown files. You can find the Rmarkdown files in the `ing
 {% for file in site.static_files %}
   {% if file.path contains 'inger' %}
     {% if file.path contains 'html' %}
-      <li><a href="https://julien-arino.github.io/3MC-2024-02-Potch/inger/{{ file.basename }}.html">{{ file.basename }}</a></li>
+      <li><a href="https://umanitoba-mathbio.github.io/3MC-2024-02-Potch/inger/{{ file.basename }}.html">{{ file.basename }}</a></li>
     {% endif %}
   {% endif %}
 {% endfor %}
@@ -43,7 +43,7 @@ Please note that at present, the slides are work in progress. I will be updating
       {% if file.path contains 'course' %}
         {% if file.path contains 'pdf' %}
           {% unless file.path contains 'FIGS' %}
-            <li><a href="https://julien-arino.github.io/3MC-2024-02-Potch/julien/SLIDES/{{ file.basename }}.pdf">{{ file.basename }}</a></li>
+            <li><a href="https://umanitoba-mathbio.github.io/3MC-2024-02-Potch/julien/SLIDES/{{ file.basename }}.pdf">{{ file.basename }}</a></li>
           {% endunless %}
         {% endif %}
       {% endif %}
@@ -58,7 +58,7 @@ I have some "vignettes" about `R` [here](https://julien-arino.github.io/R-for-mo
 
 [Mathematical Oncology - A Diﬀerential Equation approach to Cancer Growth and Metastasis](nikos/Slides_Mathematical_Oncology_Sfakianakis.pdf)
 
-[Nikos' subdirectory](https://github.com/julien-arino/3MC-2024-02-Potch/tree/main/nikos) also contains a variety of material (files, movies). 
+[Nikos' subdirectory](https://github.com/umanitoba-mathbio/3MC-2024-02-Potch/tree/main/nikos) also contains a variety of material (files, movies). 
 
 ### Slides Patrick
 
